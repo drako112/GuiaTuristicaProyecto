@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/lll" 
+    >   
+  <EditText
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Usuario"
+    android:id="@+id/etUsuario"
+    />
+  <EditText
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Contrasena"
+    android:id="@+id/etContrasena"
+    android:inputType="textPassword"
+  
+    />
+
+ <Button
+     android:id="@+id/button1"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:onClick="Button"
+     android:text="Button" />
+
+
+</LinearLayout>
